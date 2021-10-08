@@ -1,5 +1,6 @@
 import React from "react";
 
 export function App() {
-  return <h1>Hello world!</h1>;
+  const stylo = {border: "solid 3px red", backgroundColor: "yellow"};
+  return (<div className="stu" style = {stylo}>Me molesta que seas tan cabro</div>);
 }
