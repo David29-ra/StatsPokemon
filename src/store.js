@@ -6,71 +6,89 @@
     { option: "Documentation", path: "/documentation"}
   ],
   selects: [
-    { text: "Type", optons: []},
-    { text: "Attack", optons: []},
-    { text: "Experience", optons: []}
+    ["type", "fire", "water", "grass"],
+    ["Attack"],
+    ["Experience"]
   ],
-  colors: [
-    { type: "electric", color: "yellow"},
-    { type: "fire", color: "red"},
-    { type: "normal", color: "pink"},
-    { type: "water", color: "skyblue"},
-    { type: "grass", color: "green"}
-  ],
-  pokemon: [
+  colors: {
+    electric: "yellow",
+    fire: "red",
+    normal: "pink",
+    water: "skyblue",
+    grass: "green"
+  },
+  pokemons: [
     {
       name: "pachirisu",
-      attack: "45",
-      defense: "70",
-      type: ["electric"]
+      states: [
+        {skill: "attack", value: "45"},
+        {skill: "defense", value: "70"},
+      ],
+      types: ["electric"]
     },
     {
       name: "pyroar",
-      attack: "68",
-      defense: "72",
-      type: ["fire", "normal"],
+      states: [
+        {skill: "attack", value: "68"},
+        {skill: "defense", value: "72"},
+      ],
+      types: ["fire", "normal"],
     },
     {
       name: "pikachu",
-      attack: "55",
-      defense: "40",
-      type: ["electric"],
+      states: [
+        {skill: "attack", value: "55"},
+        {skill: "defense", value: "40"},
+      ],
+      types: ["electric"],
     },
     {
       name: "quilava",
-      attack: "64",
-      defense: "58",
-      type: ["fire"],
+      states: [
+        {skill: "attack", value: "64"},
+        {skill: "defense", value: "58"},
+      ],
+      types: ["fire"],
     },
     {
       name: "squirtle",
-      attack: "48",
-      defense: "65",
-      type: ["water"],
+      states: [
+        {skill: "attack", value: "48"},
+        {skill: "defense", value: "65"},
+      ],
+      types: ["water"],
     },
     {
       name: "charizard",
-      attack: "84",
-      defense: "78",
-      type: ["fire", "flying"],
+      states: [
+        {skill: "attack", value: "84"},
+        {skill: "defense", value: "78"},
+      ],
+      types: ["fire", "flying"],
     },
     {
       name: "mudkip",
-      attack: "70",
-      defense: "50",
-      type: ["water"],
+      states: [
+        {skill: "attack", value: "70"},
+        {skill: "defense", value: "50"},
+      ],
+      types: ["water"],
     },
     {
       name: "jigglypuff",
-      attack: "45",
-      defense: "20",
-      type: ["normal", "poison"],
+      states: [
+        {skill: "attack", value: "45"},
+        {skill: "defense", value: "20"},
+      ],
+      types: ["normal", "poison"],
     },
     {
       name: "tyranitar",
-      attack: "134",
-      defense: "110",
-      type: ["grass", "dark"],
+      states: [
+        {skill: "attack", value: "134"},
+        {skill: "defense", value: "110"},
+      ],
+      types: ["grass", "dark"],
     },
   ],
   texts: [

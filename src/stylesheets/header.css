@@ -1,0 +1,27 @@
+.header {
+  background-color: yellow;
+  height: 93px;
+}
+
+.header img {
+  width: 158px;
+  height: 63px;
+}
+
+.nav {
+  width: 665px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav a {
+  font-weight: 400;
+  font-style: normal;
+  line-height: 30px;
+  font-size: 25px;
+}
+
+.nav a:hover {
+  text-decoration: underline 3px #212121;
+  text-underline-offset: 16px;
+}

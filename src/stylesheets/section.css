@@ -1,0 +1,59 @@
+.section {
+  max-height: 931px;
+  margin-top: 73px;
+  margin-bottom: 50px;
+}
+
+.section h1 {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 41px;
+  letter-spacing: 3px;
+}
+
+span {
+  font-weight: 700;
+}
+
+.section input {
+  Height: 53px;
+  width: 85%;
+  border-radius: 40px;
+  box-shadow: 4px 4px 16px rgba(1, 28, 64, 0.2);
+  background: #F2F2F2;
+  margin-top: 35px;
+  padding: 16px 0px 17px 31px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(33, 33, 33, 0.8);
+}
+
+.section-select {
+  width: 80%;
+  height: 21px;
+  margin-bottom: 53px;
+  margin-top: 36px;
+  gap: 64px;
+}
+
+.section-select select {
+  width: 135px;
+  height: 21px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  text-align: center;
+  border-radius: 4px;
+  background: #F2F2F2;
+  box-shadow: 2px 2px 2px rgba(33, 33, 33, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
