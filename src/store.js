@@ -202,7 +202,7 @@
     },
   ],
   texts: [
-    "Make with \uD83D\uDC97 \uD83D\uDE18 \uD83D\uDC9C for Laboratoria Team",
+    "Make with \uD83D\uDC97 \uD83D\uDE18 \uD83D\uDC9C for Monito Inc.",
     "Pokemon 2021"
   ]
 };
