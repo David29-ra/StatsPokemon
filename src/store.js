@@ -11,21 +11,123 @@
     ["Experience"]
   ],
   colors: {
-    electric: "#F2CB07",
+    electric: "#fc3",
     fire: "linear-gradient(270deg, #B33327 0.15%, #D93E30 100%)",
     water: "linear-gradient(270deg, #5BC7FA 0.15%, #35BAFF 100%)",
     fairy: "linear-gradient(270deg, #F89EAE 0.15%, #F4B5C1 100%)",
-    poison: "#E95AC9",
+    poison: "#a59",
     dragon: "#76e",
-    rock: "#B18A24",
-    dark: "#775C33",
-    flying: "#B060D6",
-    normal:  "#999999",
+    rock: "#ba6",
+    dark: "#754",
+    flying: "#89f",
+    normal:  "#aa9",
     psychic: "#f59",
     ghost: "#66b",
+    grass: "#7c5",
+    ice: "#6cf",
+    fighting: "#b54",
+    ground: "#db5",
+    bug: "#ab2",
+    steel: "#754",
     legendary: "linear-gradient(269.46deg, #B57E10 -7.62%, #B57E10 13.9%, #F9DF7B 28.5%, #FFF3A6 45.42%, #F9DF7B 62.17%, #B57E10 81.71%)"
   },
   pokemons: [
+    {
+      name: "dragonair",
+      states: [
+        {skill: "attack", value: "84"},
+        {skill: "defense", value: "65"},
+      ],
+      types: ["dragon"]
+    },
+    {
+      name: "mew",
+      states: [
+        {skill: "attack", value: "100"},
+        {skill: "defense", value: "100"},
+      ],
+      types: ["psychic"]
+    },
+    {
+      name: "articuno",
+      states: [
+        {skill: "attack", value: "85"},
+        {skill: "defense", value: "100"},
+      ],
+      types: ["ice", "flying"]
+    },
+    {
+      name: "diancie",
+      states: [
+        {skill: "attack", value: "100"},
+        {skill: "defense", value: "150"},
+      ],
+      types: ["rock", "fairy"]
+    },
+    {
+      name: "flareon",
+      states: [
+        {skill: "attack", value: "130"},
+        {skill: "defense", value: "60"},
+      ],
+      types: ["fire"]
+    },
+    {
+      name: "latias",
+      states: [
+        {skill: "attack", value: "80"},
+        {skill: "defense", value: "90"},
+      ],
+      types: ["dragon", "psychic"]
+    },
+    {
+      name: "moltres",
+      states: [
+        {skill: "attack", value: "100"},
+        {skill: "defense", value: "90"},
+      ],
+      types: ["fire", "flying"]
+    },
+    {
+      name: "xerneas",
+      states: [
+        {skill: "attack", value: "131"},
+        {skill: "defense", value: "95"},
+      ],
+      types: ["fairy"]
+    },
+    {
+      name: "zapdos",
+      states: [
+        {skill: "attack", value: "90"},
+        {skill: "defense", value: "85"},
+      ],
+      types: ["electric", "flying"]
+    },
+    {
+      name: "rayquaza",
+      states: [
+        {skill: "attack", value: "150"},
+        {skill: "defense", value: "90"},
+      ],
+      types: ["dragon", "flying"]
+    },
+    {
+      name: "solgaleo",
+      states: [
+        {skill: "attack", value: "100"},
+        {skill: "defense", value: "90"},
+      ],
+      types: ["psychic", "steel"]
+    },
+    {
+      name: "kecleon",
+      states: [
+        {skill: "attack", value: "90"},
+        {skill: "defense", value: "70"},
+      ],
+      types: ["normal"]
+    },
     {
       name: "pachirisu",
       states: [

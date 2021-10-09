@@ -63,6 +63,7 @@
   font-family: Roboto;
   font-style: normal;
   font-size: 12px;
+  font-weight: 600;
   line-height: 14px;
   color: #212121;
 }
@@ -74,5 +75,6 @@
 
 .figure img{
   width: 168px;
+  height: -webkit-fill-available;
   margin-left: 49px;
 }

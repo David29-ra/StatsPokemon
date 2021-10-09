@@ -30,7 +30,7 @@ const States = ({states}) => {
 const Eachstate = ({value, skill}) => {
   return (<Contain className="each-state">
             <Oncard className="circle" children={value}/>
-            <Paragraph children={skill}/>
+            <Paragraph children={capitalize(skill)}/>
           </Contain>)
 }
 
