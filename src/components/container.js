@@ -19,10 +19,10 @@ export const Contain = ({className, children, style}) => {
   return <div style ={style} className={classes.join(" ")}>{children}</div>
 }
 
-export const Oncard = ({className, children}) => {
+export const Oncard = ({className, children, style}) => {
   let classes = ["flex", "align-center", "justify-center"]
 
   if(className) classes = [className, ...classes]
 
-  return <div className={classes.join(" ")}>{children}</div>
+  return <div style={style} className={classes.join(" ")} >{children}</div>
 }

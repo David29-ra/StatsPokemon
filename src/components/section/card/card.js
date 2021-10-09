@@ -7,7 +7,7 @@ import { Avatar } from "./avatar";
 import { Name } from "./name";
 
 export const Card = ({pokemon}) => {
-  return (<Contain className="pokecard flex" style={{backgroundColor: store.colors[pokemon.types[0]]}}>
+  return (<Contain className="pokecard flex" style={{background: store.colors[pokemon.types[0]]}}>
             <Data name = {capitalize(pokemon.name)} states = {pokemon.states} types = {pokemon.types}/>
             <Avatar name={pokemon.name}/>
           </Contain>)
@@ -35,8 +35,8 @@ const Eachstate = ({value, skill}) => {
 }
 
 const Power = ({types}) => {
-  return (<Contain className="power flex">
-    {types.map(type => <Oncard key={type} className="type" children={type}/>)}
+  return (<Contain className="power flex" >
+    {types.map(type => <Oncard key={type} style={{background: `${store.colors[type]}`}} className="type" children={capitalize(type)}/>)}
   </Contain>)
 }
 

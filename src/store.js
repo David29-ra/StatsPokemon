@@ -11,11 +11,19 @@
     ["Experience"]
   ],
   colors: {
-    electric: "yellow",
-    fire: "red",
-    normal: "pink",
-    water: "skyblue",
-    grass: "green"
+    electric: "#F2CB07",
+    fire: "linear-gradient(270deg, #B33327 0.15%, #D93E30 100%)",
+    water: "linear-gradient(270deg, #5BC7FA 0.15%, #35BAFF 100%)",
+    fairy: "linear-gradient(270deg, #F89EAE 0.15%, #F4B5C1 100%)",
+    poison: "#E95AC9",
+    dragon: "#76e",
+    rock: "#B18A24",
+    dark: "#775C33",
+    flying: "#B060D6",
+    normal:  "#999999",
+    psychic: "#f59",
+    ghost: "#66b",
+    legendary: "linear-gradient(269.46deg, #B57E10 -7.62%, #B57E10 13.9%, #F9DF7B 28.5%, #FFF3A6 45.42%, #F9DF7B 62.17%, #B57E10 81.71%)"
   },
   pokemons: [
     {
@@ -80,7 +88,7 @@
         {skill: "attack", value: "45"},
         {skill: "defense", value: "20"},
       ],
-      types: ["normal", "poison"],
+      types: ["normal", "fairy"],
     },
     {
       name: "tyranitar",
@@ -88,7 +96,7 @@
         {skill: "attack", value: "134"},
         {skill: "defense", value: "110"},
       ],
-      types: ["grass", "dark"],
+      types: ["rock", "dark"],
     },
   ],
   texts: [
