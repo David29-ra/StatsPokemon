@@ -62,6 +62,7 @@
   line-height: 30px;
   font-size: 25px;
 }
+
 .nav a:hover {
   text-decoration: underline 3px #212121;
   text-underline-offset: 16px;

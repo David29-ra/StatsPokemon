@@ -1,9 +1,9 @@
  export default {
   nav: [
-    { option: "Home", path: "/"},
-    { option: "Pokédex", path: "/"},
-    { option: "Legendaries", path: "/"},
-    { option: "Documentation", path: "/"}
+    { option: "Home", path: "/home"},
+    { option: "Pokédex", path: "/pokédex"},
+    { option: "Legendaries", path: "/legendaries"},
+    { option: "Documentation", path: "/documentation"}
   ],
   selects: [
     { text: "Type", optons: []},
@@ -73,4 +73,8 @@
       type: ["grass", "dark"],
     },
   ],
+  texts: [
+    "Make with \uD83D\uDC97 \uD83D\uDE18 \uD83D\uDC9C for Laboratoria Team",
+    "Pokemon 2021"
+  ]
 };
