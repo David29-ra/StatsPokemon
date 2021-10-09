@@ -1,0 +1,80 @@
+/* Lista de pokemones */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 45px 35px;
+}
+
+.pokecard {
+  width: 352px;
+  height: 137px;
+  /* background: linear-gradient(180deg, #F2CB07 0%, #F2C307 41.15%, #F2B807 100%); */
+  border-radius: 8px;
+}
+
+.pokedata{
+  background-color: #F6F7F9;
+  width: 34%;
+  padding-left: 22px;
+}
+
+.pokedata h3{
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #212121;
+  margin-bottom: 18px;
+  margin-top: 6px;
+}
+
+.states {
+  display: flex;
+  gap: 13px;
+  margin-bottom: 11px;
+}
+
+.each-state {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.each-state p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #4B4B4B;
+}
+
+.circle {
+  width: 38px;
+  height: 36px;
+  border-radius: 50%;
+  border: #212121 3px solid;
+}
+
+.type {
+  width: 60px;
+  height: 16px;
+  border-radius: 11px;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #212121;
+}
+
+.power {
+  gap: 13px;
+  min-inline-size: min-content;
+}
+
+.figure img{
+  width: 168px;
+  height: -webkit-fill-available;
+  margin-left: 49px;
+}

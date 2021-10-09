@@ -1,4 +1,7 @@
-h1 {
-  color: hotpink;
-  font-family: cursive;
-}
+
+@import url('./stylesheets/global.css');
+@import url('./stylesheets/card.css');
+@import url('./stylesheets/footer.css');
+@import url('./stylesheets/header.css');
+@import url('./stylesheets/help.css');
+@import url('./stylesheets/section.css');

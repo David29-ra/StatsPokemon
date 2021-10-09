@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Pokeriak</title>
+</head>
+<body>
+  <header class="header flex align-center justify-center">
+    <div class="draw flex align-center justify-between">
+      <img src="./img/pokelogo.svg" alt="Logo-Pokemon">
+
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#pokédex">Pokédex</a>
+        <a href="#legendaries">Legendaries</a>
+        <a href="#documentation">Documentation</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section flex justify-center align-center">
+    <div class="draw flex column justify-center align-center">
+      <h1>800 <span>Pokemons</span> for you to choose your favorite</h1>
+
+      <input type="text" placeholder="Encuentra tu pokémon">
+
+      <div class="flex section-select">
+        <select name="tipo" id="type">
+          <option value="1">Type</option>
+        </select>
+
+        <select name="ataque" id="attack">
+          <option value="1">Attack</option>
+        </select>
+
+        <select name="experiencia" id="experience">
+          <option value="1">Experience</option>
+        </select>
+      </div>
+
+      <div class="grid">
+        <div class="pokecard flex">
+          <div class="pokedata">
+            <h3>Pachirisu</h3>
+
+            <div class="states">
+              <div class="each-state">
+
+                <div class="circle flex align-center justify-center">45</div>
+                <p>Attack</p>
+
+              </div>
+              <div class="each-state">
+
+                <div class="circle flex align-center justify-center">70</div>
+                <p>Defense</p>
+
+              </div>
+            </div>
+            
+            <div class="power">
+              <div class="type flex justify-center align-center">Electric</div>
+            </div>
+            
+
+          </div>
+          <div class="figure">
+            <img src="./img/pichirisu.svg" alt="Pachirisu">
+          </div>
+        </div>
+
+        <div class="pokecard flex">
+          <div class="pokedata">
+            <h3>Pyroar</h3>
+            <div class="states">
+              <div class="each-state">
+                <div class="circle flex align-center justify-center">68</div>
+                <p>Attack</p>
+              </div>
+              <div class="each-state">
+                <div class="circle flex align-center justify-center">72</div>
+                <p>Defense</p>
+              </div>
+            </div>
+            <div class="power flex">
+              <div class="type flex justify-center align-center">Fire</div>
+              <div class="type flex justify-center align-center">Normal</div>
+            </div>
+            
+          </div>
+          <div class="figure">
+            <img src="./img/pyroar.svg" alt="Pyroar">
+          </div>
+        </div>
+
+        <div class="pokecard flex">
+          <div class="pokedata">
+            <h3>Pikachu</h3>
+            <div class="states">
+              <div class="each-state">
+                <div class="circle flex align-center justify-center">55</div>
+                <p>Attack</p>
+              </div>
+              <div class="each-state">
+                <div class="circle flex align-center justify-center">40</div>
+                <p>Defense</p>
+              </div>
+            </div>
+            <div class="power flex">
+              <div class="type flex justify-center align-center">Electric</div>
+            </div>
+          </div>
+          <div class="figure">
+            <img src="./img/pikachu.svg" alt="Pikachu">
+          </div>
+        </div>
+
+        <div class="pokecard flex">
+          <div class="pokedata">
+            <h3>Quilava</h3>
+            <div class="states">
+              <div class="each-state">
+                <div class="circle flex align-center justify-center">64</div>
+                <p>Attack</p>
+              </div>
+              <div class="each-state">
+                <div class="circle flex align-center justify-center">58</div>
+                <p>Defense</p>
+              </div>
+            </div>
+            <div class="power flex">
+              <div class="type flex justify-center align-center">Fire</div>
+            </div>
+          </div>
+          <div class="figure">
+            <img src="./img/quilava.svg" alt="Quilava">
+          </div>
+        </div>
+
+        <div class="pokecard flex">
+          <div class="pokedata">
+            <h3>Squirtle</h3>
+            <div class="states">
+              <div class="each-state">
+                <div class="circle flex align-center justify-center">48</div>
+                <p>Attack</p>
+              </div>
+              <div class="each-state">
+                <div class="circle flex align-center justify-center">65</div>
+                <p>Defense</p>
+              </div>
+            </div>
+            <div class="power flex">
+              <div class="type flex justify-center align-center">Water</div>
+            </div>
+          </div>
+          <div class="figure">
+            <img src="./img/squirtle.svg" alt="Squirtle">
+          </div>
+        </div>
+
+        <div class="pokecard flex">
+          <div class="pokedata">
+            <h3>Charizard</h3>
+            <div class="states">
+              <div class="each-state">
+                <div class="circle flex align-center justify-center">84</div>
+                <p>Attack</p>
+              </div>
+              <div class="each-state">
+                <div class="circle flex align-center justify-center">78</div>
+                <p>Defense</p>
+              </div>
+            </div>
+            <div class="power flex">
+              <div class="type flex justify-center align-center">Fire</div>
+              <div class="type flex justify-center align-center">Flying</div>
+            </div>
+          </div>
+          <div class="figure">
+            <img src="./img/charizard.svg" alt="charizard">
+          </div>
+        </div>
+
+        <div class="pokecard flex">
+          <div class="pokedata">
+            <h3>Mudkip</h3>
+            <div class="states">
+              <div class="each-state">
+                <div class="circle flex align-center justify-center">70</div>
+                <p>Attack</p>
+              </div>
+              <div class="each-state">
+                <div class="circle flex align-center justify-center">50</div>
+                <p>Defense</p>
+              </div>
+            </div>
+            <div class="power flex">
+              <div class="type flex justify-center align-center">Water</div>
+            </div>
+          </div>
+          <div class="figure">
+            <img src="./img/mudkip.svg" alt="Mudkip">
+          </div>
+        </div>
+
+        <div class="pokecard flex">
+          <div class="pokedata">
+            <h3>Jigglypuff</h3>
+            <div class="states">
+              <div class="each-state">
+                <div class="circle flex align-center justify-center">45</div>
+                <p>Attack</p>
+              </div>
+              <div class="each-state">
+                <div class="circle flex align-center justify-center">20</div>
+                <p>Defense</p>
+              </div>
+            </div>
+            <div class="power flex">
+              <div class="type flex justify-center align-center">Normal</div>
+              <div class="type flex justify-center align-center">Poison</div>
+            </div>
+          </div>
+          <div class="figure">
+            <img src="./img/jigglypuff.svg" alt="Jigglypuff ">
+          </div>
+        </div>
+
+        <div class="pokecard flex">
+          <div class="pokedata">
+            <h3>Tyranitar</h3>
+            <div class="states">
+              <div class="each-state">
+                <div class="circle flex align-center justify-center">134</div>
+                <p>Attack</p>
+              </div>
+              <div class="each-state">
+                <div class="circle flex align-center justify-center">110</div>
+                <p>Defense</p>
+              </div>
+            </div>
+            <div class="power flex">
+              <div class="type flex justify-center align-center">Grass</div>
+              <div class="type flex justify-center align-center">Dark</div>
+            </div>
+          </div>
+          <div class="figure">
+            <img src="./img/tyranitar.svg" alt="Tyranitar">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer flex align-center justify-center">
+    <div class="draw flex align-center justify-between">
+      <p>Make with &#128564 for Laboratoria Team</p>
+      <p>Pokemon 2021</p>
+    </div>
+  </footer>
+</body>
+</html>

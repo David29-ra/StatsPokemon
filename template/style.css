@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  border: 0px;
+  box-sizing: border-box;
+  font-family: "Karla";
+}
+
+/* General */
+
+.draw {
+  width: 80%;
+  height: 75%;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-between{
+  justify-content:space-between;
+}
+
+/* Header */
+
+.header {
+  background-color: yellow;
+  height: 93px;
+}
+
+.header img {
+  width: 158px;
+  height: 63px;
+}
+
+.nav {
+  width: 665px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav a {
+  font-weight: 400;
+  font-style: normal;
+  line-height: 30px;
+  font-size: 25px;
+}
+.nav a:hover {
+  text-decoration: underline 3px #212121;
+  text-underline-offset: 16px;
+}
+
+/* Section */
+
+.section {
+  max-height: 931px;
+  margin-top: 73px;
+  margin-bottom: 50px;
+}
+
+.section h1 {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 41px;
+  letter-spacing: 3px;
+}
+
+span {
+  font-weight: 700;
+}
+
+.section input {
+  Height: 53px;
+  width: 85%;
+  border-radius: 40px;
+  box-shadow: 4px 4px 16px rgba(1, 28, 64, 0.2);
+  background: #F2F2F2;
+  margin-top: 35px;
+  padding: 16px 0px 17px 31px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(33, 33, 33, 0.8);
+}
+
+.section-select {
+  width: 80%;
+  height: 21px;
+  margin-bottom: 53px;
+  margin-top: 36px;
+  gap: 64px;
+}
+
+.section-select select {
+  width: 135px;
+  height: 21px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  text-align: center;
+  border-radius: 4px;
+  background: #F2F2F2;
+  box-shadow: 2px 2px 2px rgba(33, 33, 33, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer */
+.footer {
+  height: 70px;
+}
+
+.footer p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #212121;
+}
+
+/* Lista de pokemones */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 45px 35px;
+}
+
+.pokecard {
+  width: 352px;
+  height: 137px;
+  background: linear-gradient(180deg, #F2CB07 0%, #F2C307 41.15%, #F2B807 100%);;
+  border-radius: 8px;
+}
+
+.pokedata{
+  background-color: #F6F7F9;
+  width: 34%;
+  padding-left: 22px;
+}
+
+.pokedata h3{
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #212121;
+  margin-bottom: 18px;
+  margin-top: 6px;
+}
+
+.states {
+  display: flex;
+  gap: 13px;
+  margin-bottom: 11px;
+}
+
+.each-state {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.each-state p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #4B4B4B;
+}
+
+.circle {
+  width: 38px;
+  height: 36px;
+  border-radius: 50%;
+  border: #212121 3px solid;
+}
+
+.type {
+  width: 60px;
+  height: 16px;
+  background-color: #F2CB07;
+  border-radius: 11px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #212121;
+}
+
+.power {
+  gap: 13px;
+  min-inline-size: min-content;
+}
+
+.figure img{
+  width: 168px;
+  margin-left: 49px;
+}
