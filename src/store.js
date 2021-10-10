@@ -11,26 +11,24 @@
     ["Experience"]
   ],
   colors: {
-    electric: "#fc3",
+    electric: "linear-gradient(180deg, #F2CB07 0%, #F2C307 41.15%, #F2B807 100%)",
     fire: "linear-gradient(270deg, #B33327 0.15%, #D93E30 100%)",
-    water: "linear-gradient(270deg, #5BC7FA 0.15%, #35BAFF 100%)",
+    water: "linear-gradient(90deg, #6aceff 0, #5ac6fa 50%, #48bef4 100%)",
     fairy: "linear-gradient(270deg, #F89EAE 0.15%, #F4B5C1 100%)",
-    poison: "#a59",
-    dragon: "#76e",
-    rock: "#ba6",
-    dark: "#754",
-    flying: "#89f",
-    normal:  "#aa9",
-    psychic: "#f59",
-    ghost: "#66b",
-    grass: "#7c5",
-    ice: "#6cf",
-    fighting: "#b54",
-    ground: "#db5",
-    bug: "#ab2",
-    steel: "#aab",
-    youtuber: "linear-gradient(180deg, #FE0000 16.66%,#FD8C00 16.66%, 33.32%,#FFE500 33.32%, 49.98%,#119F0B 49.98%, 66.64%,#0644B3 66.64%, 83.3%,#C22EDC 83.3%)",
-    legendary: "linear-gradient(269.46deg, #B57E10 -7.62%, #B57E10 13.9%, #F9DF7B 28.5%, #FFF3A6 45.42%, #F9DF7B 62.17%, #B57E10 81.71%)"
+    poison: "linear-gradient(90deg, #c75fa4 0, #b95a9e 25%, #aa5598 50%, #9b5091 75%, #8e4b8b 100%)",
+    dragon: "linear-gradient(90deg, #a47bff 0, #7766ee 50%, #4b51c7 100%)",
+    rock: "linear-gradient(90deg, #cebe80 0, #bbaa66 50%, #a8964d 100%)",
+    dark: "linear-gradient(90deg, #836757 0, #7d5f4e 25%, #775544 50%, #714b3b 75%, #6b4333 100%)",
+    flying: "linear-gradient(90deg, #a2abff 0, #8898ff 50%, #6c85f0 100%)",
+    normal:  "linear-gradient(90deg, #bdbcb2 0, #aaaa99 50%, #969881 100%)",
+    psychic: "linear-gradient(90deg, #ff7e8a 0, #ff718f 16.67%, #ff6394 33.33%, #ff5499 50%, #f4469f 66.67%, #e83ba7 83.33%, #d934b1 100%)",
+    ghost: "linear-gradient(90deg, #7e78c9 0, #6666bb 50%, #4c55ad 100%)",
+    grass: "linear-gradient(90deg, #91e372 0, #7cdb6d 25%, #64d368 50%, #47ca63 75%, #1dc361 100%)",
+    ice: "linear-gradient(90deg, #65e0ff 0, #66ccff 50%, #65b8e6 100%)",
+    fighting: "linear-gradient(90deg, #cf6446 0, #c55c45 25%, #bb5444 50%, #b04c43 75%, #a64541 100%)",
+    ground: "linear-gradient(90deg, #edce5b 0, #ddbb54 50%, #cca84d 100%)",
+    bug: "linear-gradient(90deg, #c4c337 0, #b8bf2d 25%, #aabb21 50%, #9cb714 75%, #8eb302 100%)",
+    steel: "linear-gradient(90deg, #b7b6bf 0, #aaaabb 50%, #9d9eb7 100%)",
   },
   pokemons: [
     {
@@ -79,7 +77,7 @@
         {skill: "attack", value: "134"},
         {skill: "defense", value: "95"},
       ],
-      types: ["dragon"]
+      types: ["dragon", "flying"]
     },
     {
       name: "mew",
@@ -113,14 +111,6 @@
       ],
       types: ["rock", "fairy"]
     },
-    // {
-    //   name: "tapir-590",
-    //   states: [
-    //     {skill: "attack", value: "73"},
-    //     {skill: "defense", value: "70"},
-    //   ],
-    //   types: ["youtuber"]
-    // },
     {
       name: "hypno",
       states: [
