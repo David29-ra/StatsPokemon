@@ -21,8 +21,8 @@ export function App() {
       </Header>
       <Content>
         <Tittle/>
-        <Search/>
-        <GroupSel filters={store.selects}/>
+        {/* <Search/>
+        <GroupSel filters={store.selects}/> */}
         <Contain className="grid">
           {store.pokemons.map((pokemon, i) => <Card key={i} pokemon={pokemon}/>)}
         </Contain>

@@ -1,9 +1,9 @@
  export default {
   nav: [
-    { option: "Home", path: "/home"},
-    { option: "Pokédex", path: "/pokédex"},
-    { option: "Legendaries", path: "/legendaries"},
-    { option: "Documentation", path: "/documentation"}
+    { option: "Home", path: "/#"},
+    { option: "Pokédex", path: "/#"},
+    { option: "Legendaries", path: "/#"},
+    { option: "Documentation", path: "/#"}
   ],
   selects: [
     ["type", "fire", "water", "grass"],
