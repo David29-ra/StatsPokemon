@@ -1,9 +1,37 @@
 # PokeReact
 
-### Notes
+THis is a App with which show some pokemos and its stats.
 
-- Replicate the Figma design placed at:
-  https://www.figma.com/file/7XF8BXBMex5PE5KIQlbuYZ/Pokedex-Desktop?node-id=0%3A1
+It was develop by React.
+
+It shows like that.
+
+<br/>
+
+![img](/img/screen.png)
+
+<br/>
+<br/>
+
+## Before to Start
+
+1. Install Node
+2. Install npm
+3. Install React
+
+## To show on browser
+
+1. Run
+```powershell
+$ npx install
+```
+2. Run
+```powershell
+$ npm start
+```
+- Open your browser at http://localhost:1234
+
+## If you can use Docker
 
 ### Requirements
 
@@ -35,4 +63,12 @@ _Docker dependencies_
   ```
 - Open your browser at http://localhost:1234
 
-### You are ready to start coding!
+<br/><br/>
+
+Ready, you can enjoy!
+
+<br/><br/>
+
+*Made by Monito Inc. 🙊*
+
+
