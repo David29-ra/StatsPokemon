@@ -1,4 +1,4 @@
-# PokeReact
+# PokeMonito
 
 THis is a App with which show some pokemos and its stats.
 
